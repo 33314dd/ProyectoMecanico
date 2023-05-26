@@ -4,7 +4,7 @@
     --secundario: #004F4D;
     --secundarioOscuro: #402B19;
     --blanco: #FFF;
-    --negro: #260F01;
+    --negro: #000000;
     --gris: #737373;
 
     --fuentePrincipal: 'Staatliches', cursive;
@@ -252,7 +252,7 @@ h3 {
 
 .form-register {
     width: 400px;
-    background: var(--gris);
+    background: var(--secundario);
     padding: 30px;
     margin: auto;
     margin-top: 100px;
