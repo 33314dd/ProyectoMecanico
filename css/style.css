@@ -1,6 +1,6 @@
 :root {
-    --primario: #F0F0F2;
-    --primarioOscuro: #D9D7D7;
+    --primario: #ffffff;
+    --primarioOscuro: #6e70ff;
     --secundario: #004F4D;
     --secundarioOscuro: #402B19;
     --blanco: #FFF;
@@ -70,9 +70,10 @@ h3 {
     font-weight: 700;
     margin-bottom: 2rem;
     border: none;
+    border-radius: 6px;
 }
 .formulario {
-    background-color: var(--primarioOscuro);
+    background-color: #9999CC;
     margin: 5rem auto 0 auto;
     width: 95%;
     padding: 5rem;
@@ -164,7 +165,6 @@ h3 {
     line-height: 1.2;
 }
 
-/** Graficos **/
 
 
 
@@ -252,7 +252,7 @@ h3 {
 
 .form-register {
     width: 400px;
-    background: var(--secundario);
+    background: #9999CC;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
