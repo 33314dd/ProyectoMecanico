@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Inicio</a>
+        <a class="navegacion__enlace" href="mecanicos.html">Mecánicos</a>
+        <a class="navegacion__enlace" href="productos.html">Productos</a>
+        <a class="navegacion__enlace" href="nosotros.html">Contacto</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="registrar.html">Registrar</a>
+    </nav>
+    
+    <section class="form-register">
+        <form action="registrar.html" method="post" class="formato-registro" onsubmit="return validar();">
+            <h4>Formulario Registro</h4>
+            <input class="controls" type="nombre" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+            <input class="controls" type="apellido" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+            <input class="controls" type="email" name="correos" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="telefono" name="telefono" id="telefono" placeholder="Ingrese su numero de celular">
+            <input class="controls" type="password" name="contraseña" id="password" placeholder="Ingrese su contraseña">
+            <p class="terminos">Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <input type="submit" value="Registrar" class="botons" >
+            <p class="terminos"><a class="cuenta" href="#">Ya poseo una cuenta</a></p>
+        </form>
+
+    </section>
+    <section class="modal ">
+        <div class="modal__container">
+            <img src="img/modal.svg" class="model__img">
+            <h2 class="modal_title">¡Terminos y Condiciones!</h2>
+            <p class="modal__paragraph">
+                Al registrarse como usuario en nuestra página de venta de artículos de mecánica y repuestos, usted acepta los siguientes términos y condiciones:
+                Registro de Usuario:
+                1.1. Usted debe proporcionar información precisa y completa al registrarse como usuario.
+                1.2. Usted es responsable de mantener la confidencialidad de su información de inicio de sesión y de cualquier actividad que ocurra bajo su cuenta.
+                
+                Uso del Sitio Web:
+                2.1. Usted utilizará el sitio web únicamente con fines legales y de acuerdo con estos términos y condiciones.
+                2.2. Usted no utilizará el sitio web para enviar, publicar o transmitir cualquier material que sea ilegal, ofensivo, difamatorio, obsceno o que infrinja los derechos de terceros.
+                2.3. Usted no realizará ninguna actividad que pueda interferir con el funcionamiento adecuado del sitio web, como intentar acceder sin autorización, introducir virus o realizar ataques cibernéticos.</p>
+            <a href="#" class="modal__close">Cerrar</a>
+
+        </div>
+
+    </section>
+    
+    
+
+    <footer class="footer">
+        <p class="footer__texto">Taller mecánico Mcqueen - Todos los derechos Reservados 2023.</p>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
