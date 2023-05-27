@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>FrontEnd Store</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="body">
     <header class="header">
         <a href="index.html">
@@ -29,21 +34,50 @@
 
         <div class="nosotros">
             <div class="nosotros__contenido">
-                <p>En un rincón de la ciudad se encuentra un taller mecánico que destaca entre los demás. Se trata de un joven emprendimiento conformado por ex estudiantes de la misma carrera universitaria en mecánica automotriz. Su pasión compartida por los motores los ha llevado a unir fuerzas y crear un espacio donde el conocimiento y la innovación se entrelazan.
-                    En este taller, la juventud se fusiona con la experiencia, ya que cada uno de ellos ha adquirido habilidades únicas a lo largo de su formación académica y en sus anteriores trabajos en el campo. La energía y el entusiasmo fluyen en cada proyecto, desde las reparaciones más simples hasta las reconstrucciones más complejas.</p>
-                <p>Este taller mecánico joven ha logrado destacar en el competitivo mundo automotriz gracias a su pasión, conocimiento y espíritu emprendedor. Siguen creciendo y expandiendo su reputación, demostrando que la juventud y el talento pueden marcar la diferencia en cualquier industria.</p>
+                <p>En un rincón de la ciudad se encuentra un taller mecánico que destaca entre los demás. Se trata de un
+                    joven emprendimiento conformado por ex estudiantes de la misma carrera universitaria en mecánica
+                    automotriz. Su pasión compartida por los motores los ha llevado a unir fuerzas y crear un espacio
+                    donde el conocimiento y la innovación se entrelazan.
+                    En este taller, la juventud se fusiona con la experiencia, ya que cada uno de ellos ha adquirido
+                    habilidades únicas a lo largo de su formación académica y en sus anteriores trabajos en el campo. La
+                    energía y el entusiasmo fluyen en cada proyecto, desde las reparaciones más simples hasta las
+                    reconstrucciones más complejas.</p>
+                <p>Este taller mecánico joven ha logrado destacar en el competitivo mundo automotriz gracias a su
+                    pasión, conocimiento y espíritu emprendedor. Siguen creciendo y expandiendo su reputación,
+                    demostrando que la juventud y el talento pueden marcar la diferencia en cualquier industria.</p>
             </div>
-            <img class="nosotros__imagen" src="img/taller.webp" alt="imagen nosotros">
+            <main>
+                <div id="img2" class="carousel slide " data-ride="carousel" data-interval="3000">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#img2" data-slide-to="1" class="active"></li>
+                        <li data-target="#img2" data-slide-to="2"class="active"></li>
+                        <li data-target="#img2" data-slide-to="3" class="active"></li>                    
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner nosotros__imagen">
+                        <div class="item active">
+                            <img src="img/slider-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/slider-2.jpeg">
+                        </div>
+                        <div class="item">
+                            <img src="img/slider-3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     </main>
     <section class="contenedor comprar">
         <h2 class="comprar__titulo">¿Por qué comprar nuestros productos?</h2>
 
         <div class="bloques">
-           
+
             <div class="bloque">
 
-            </div> 
+            </div>
 
             <div class="bloque">
                 <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
@@ -54,20 +88,22 @@
             <div class="bloque">
                 <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
                 <h3 class="bloque__titulo">La Mejor Calidad</h3>
-                <p>Nuestros productos son de calidad premiun, por lo mismo para nuestros trabajos utilizamos estos mismos</p>
+                <p>Nuestros productos son de calidad premiun, por lo mismo para nuestros trabajos utilizamos estos
+                    mismos</p>
             </div> <!--.bloque-->
 
 
-            </div>
+        </div>
         </div><!--.bloques-->
 
-    </section> 
+    </section>
 
-    
+
 
     <footer class="footer">
-        <p class="footer__texto">Taller mecánico Mcqueen - Todos los derechos Reservados 2023.</p>
+        <p class="footer__texto">Taller mecánico Mcqueen©Todos los derechos Reservados 2023.</p>
     </footer>
-    
+
 </body>
+
 </html>
